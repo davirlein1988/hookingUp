@@ -13,6 +13,7 @@ import {
   Container,
 } from '@bootstrap-styled/v4';
 import PropTypes from 'prop-types';
+import { createContext } from 'navi';
 
 /**
  * @public
@@ -23,6 +24,14 @@ import PropTypes from 'prop-types';
  * @param {object} props.theme - A theme object, see https://bootstrap-styled.github.io for more details
  * @returns {component} - bootstrap application example
  */
+
+// const defaultStore = {
+//   loading: false,
+//   message: 'test',
+// };
+
+// export const store = createContext(defaultStore);
+
 const About = ({ title, name }) => (
   <Card>
     <CardBlock>
