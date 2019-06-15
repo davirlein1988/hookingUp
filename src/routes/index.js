@@ -15,7 +15,7 @@ export default mount({
         <meta name="description" content="And example app" />
       </>
     ),
-    getView: () => import('../containers/Header.js'),
+    getView: () => import('../containers/home.js'),
   }),
   '/users': route({
     title: 'Users',
